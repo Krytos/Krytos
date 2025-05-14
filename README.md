@@ -63,7 +63,7 @@ I'm committed to ongoing skill development and exploring new technological front
 ![HTMX - Intermediate](https://img.shields.io/badge/HTMX-Intermediate-3498DB?style=flat-square)
 ![Tailwind CSS - Intermediate](https://img.shields.io/badge/Tailwind_CSS-Intermediate-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
 
-*(For a more detailed professional history and project specifics, please refer to my CV.)*
+*[(For a more detailed professional history and project specifics, please refer to my CV.)](https://github.com/Krytos/Krytos/blob/main/Kevin%20Bartholomew%20Meinon%20CV.pdf)*
 
 ---
 
