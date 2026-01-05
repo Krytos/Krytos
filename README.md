@@ -64,8 +64,7 @@ Control Room EQ Wizard through natural language – AI meets audio engineering.
 
 I'm available for freelance projects starting **March 2026**.
 
-- **Backend Development & DevOps:** €650-700/day
-- **AI Integration Projects:** €750-800/day
-- **Location:** Remote (Germany/EU)
+**Focus areas:** AI integration, Python backend, cloud automation  
+**Location:** Remote (Germany/EU)
 
 [📧 kevin@meinon.de](mailto:kevin@meinon.de) · [LinkedIn](https://www.linkedin.com/in/kevin-meinon)
