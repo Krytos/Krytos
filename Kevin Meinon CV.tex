@@ -1,0 +1,189 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+% T1 encoding is better for German characters like ü
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.6in} % Tight margin to fit everything on one page
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Kevin Meinon} \\ \vspace{1pt}
+    \small +4917645728313 $|$ \href{mailto:kevin@meinon.de}{\underline{kevin@meinon.de}} $|$ Obertshausen, Hessen \\ \vspace{2pt}
+    \href{https://www.linkedin.com/in/kevin-meinon/}{\underline{LinkedIn}} $|$ 
+    \href{https://github.com/Krytos}{\underline{GitHub}}
+\end{center}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Mileo Systems GmbH}{Offenbach, Hessen}
+      {DevOps Engineer (Contract)}{Sep. 2025 -- Dec. 2025}
+      \resumeItemListStart
+        \resumeItem{Automated and standardized Cloud Infrastructure leveraging Terraform to deploy production-ready Azure environments (VNets, Resource Groups), ensuring consistent environment parity}
+        \resumeItem{Implemented end-to-end Microsoft Fabric tenant and workspace architecture for multi-stage Medallion data processing}
+        \resumeItem{Enhanced data security by engineering secure data pathways using Managed Private Endpoints for isolated Azure Storage}
+        \resumeItem{Managed platform governance by overseeing Service Principals and authentication tokens for secure REST API integrations}
+        \resumeItem{Designed and deployed tiered Azure Storage architectures with Secure File Ingestion protocols, optimizing performance}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Candylabs GmbH}{Frankfurt am Main, Hessen}
+      {Fullstack Developer}{May 2024 -- Jul. 2025}
+      \resumeItemListStart
+        \resumeItem{Designed CI/CD pipelines using GitHub Actions, accelerating testing and automation by $\sim$70\% faster release cycles}
+        \resumeItem{Integrated Stability AI for automated text-to-image workflows, increasing content output by $\sim$1000\%}
+        \resumeItem{Enhanced code quality and consistency by implementing Docker environments and DevContainers}
+        \resumeItem{Optimized deployment efficiency for containerized apps using Docker Compose with multi-stage builds}
+        \resumeItem{Engineered media management system integrating AWS S3 and Cloudinary}
+        \resumeItem{Architected and implemented comprehensive Django-based web applications for client-specific service solutions}
+        \resumeItem{Developed custom Python scripts for data processing and integration, saving 10 hours weekly}
+        \resumeItem{Built scalable microservice architectures using Django and Celery}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Eduard G. Fidel GmbH}{Pforzheim, Baden-Württemberg}
+      {Fullstack Developer}{Nov. 2023 -- May 2024}
+      \resumeItemListStart
+        \resumeItem{Developed Python-based process automation solutions, reducing manual workload by $\sim$60\%}
+        \resumeItem{Engineered Python ETL systems for Microsoft NAVision, improving data accessibility}
+        \resumeItem{Created serverless applications on AWS using Lambda, API Gateway and DynamoDB}
+        \resumeItem{Designed and implemented RESTful APIs for system and third-party integration}
+        \resumeItem{Built data visualization dashboards with Vue.js and Python}
+        \resumeItem{Improved database performance using DynamoDB for NoSQL implementations}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Self-Employed}{Obertshausen, Hessen}
+      {Python Developer}{Jul. 2017 -- Apr. 2021}
+      \resumeItemListStart
+        \resumeItem{Delivered custom full-stack web applications (Django, Flask) with scalable SQL/NoSQL architectures and AWS deployments}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {SRH Heidelberg}{Heidelberg, Baden-Württemberg}
+      {Major: Fachinformatiker-Anwendungsentwicklung}{Sep. 2021 -- Jun. 2023}
+  \resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, SQL, JavaScript, AutoHotkey, HCL (Terraform)} \\
+     \textbf{Cloud \& DevOps}{: Azure (VNets, Storage, Fabric), AWS, Docker, Kubernetes, Terraform, GitHub Actions, Linux} \\
+     \textbf{Frameworks}{: Django, Flask, FastAPI, Vue.js, Flet} \\
+     \textbf{Libraries}{: Pytest, Celery, NumPy, Playwright} \\
+     \textbf{Other}{: RESTful APIs, Microservices, TDD, Agile, GraphQL}
+    }}
+ \end{itemize}
+
+
+%-----------INTERESTS-----------
+\section{Interests}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     Weightlifting, Building Computers, Archery, Skateboarding, Snowboarding, Surfing, Ski, Reading, Gaming, Programming, Spending time with friends
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}
