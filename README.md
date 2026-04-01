@@ -15,13 +15,13 @@ I help companies integrate AI into existing systems and automate complex workflo
 Control Room EQ Wizard through natural language – AI meets audio engineering.
 `MCP` `FastMCP` `Anthropic` `Python`
 
+### [AI Document Analyzer](https://github.com/Krytos/ai-document-analyzer) (WIP)
+LLM-powered document processing with semantic search and RAG.
+`FastAPI` `LightRAG` `OpenAI` `ChromaDB` `Docker`
+
 ### [FastAPI Production Template](https://github.com/Krytos/fastapi-production-ready)
 Production-ready setup with CI/CD, Terraform, and comprehensive testing.
 `FastAPI` `PostgreSQL` `GitHub Actions` `Terraform`
-
-### [AI Document Analyzer](https://github.com/Krytos/ai-document-analyzer)
-LLM-powered document processing with semantic search and RAG.
-`FastAPI` `LightRAG` `OpenAI` `ChromaDB` `Docker`
 
 ---
 
