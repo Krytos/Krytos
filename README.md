@@ -11,17 +11,17 @@ I help companies integrate AI into existing systems and automate complex workflo
 
 ## 🚀 Featured Projects
 
-### [AI Document Analyzer](https://github.com/Krytos/ai-document-analyzer)
-LLM-powered document processing with semantic search and RAG.
-`FastAPI` `OpenAI` `ChromaDB` `Docker`
+### [REW MCP Server](https://github.com/Krytos/rew-mcp-server)
+Control Room EQ Wizard through natural language – AI meets audio engineering.
+`MCP` `FastMCP` `Anthropic` `Python`
 
 ### [FastAPI Production Template](https://github.com/Krytos/fastapi-production-ready)
 Production-ready setup with CI/CD, Terraform, and comprehensive testing.
 `FastAPI` `PostgreSQL` `GitHub Actions` `Terraform`
 
-### [REW MCP Server](https://github.com/Krytos/rew-mcp-server)
-Control Room EQ Wizard through natural language – AI meets audio engineering.
-`MCP` `FastMCP` `Anthropic` `Python`
+### [AI Document Analyzer](https://github.com/Krytos/ai-document-analyzer)
+LLM-powered document processing with semantic search and RAG.
+`FastAPI` `LightRAG` `OpenAI` `ChromaDB` `Docker`
 
 ---
 
