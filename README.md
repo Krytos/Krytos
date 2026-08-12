@@ -13,6 +13,10 @@ Based in Frankfurt, Germany. Open to remote opportunities.
 
 ## 🚀 Featured Client-Ready Architecture
 
+### [AI Document Analyzer](https://github.com/kevinmeinon/ai-document-analyzer)
+LLM-powered document processing pipeline utilizing advanced semantic search and RAG architecture.
+`FastAPI` `Pydantic AI` `OpenAI` `ChromaDB` `Docker`
+
 ### [FastAPI Production Template](https://github.com/kevinmeinon/fastapi-production-template)
 Production-ready microservice setup featuring full CI/CD, Terraform infrastructure, and comprehensive automated testing.
 `FastAPI` `PostgreSQL` `GitHub Actions` `Terraform` `Docker`
@@ -20,10 +24,6 @@ Production-ready microservice setup featuring full CI/CD, Terraform infrastructu
 ### [REW MCP Server](https://github.com/kevinmeinon/rew-mcp-server)
 An AI-to-Application bridge controlling Room EQ Wizard through natural language – showcasing advanced LLM tool integration.
 `MCP` `FastMCP` `Anthropic` `Python` `AI Integration`
-
-### [AI Document Analyzer](https://github.com/kevinmeinon/ai-document-analyzer) (WIP)
-LLM-powered document processing pipeline utilizing advanced semantic search and RAG architecture.
-`FastAPI` `LightRAG` `OpenAI` `ChromaDB` `Docker`
 
 ---
 
